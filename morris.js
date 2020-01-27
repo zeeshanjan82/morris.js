@@ -2034,7 +2034,7 @@ Licensed under the BSD-2-Clause License.
       this.sin_p1 = Math.sin(p1);
       this.cos_p1 = Math.cos(p1);
       this.is_long = (p1 - p0) > Math.PI ? 1 : 0;
-      this.path = this.calcSegment(this.inner + 3, this.inner + this.outer - 5);
+      this.path = this.calcSegment(this.inner + 3, this.inner + this.outer - 15);
       this.selectedPath = this.calcSegment(this.inner + 3, this.inner + this.outer);
       this.hilight = this.calcArc(this.inner);
     }
